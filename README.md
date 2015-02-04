@@ -1,3 +1,4 @@
-# debuggery.io GitHub source
+# debuggery.io source
 
 Do not claim or distribute
+Zeki Xu
