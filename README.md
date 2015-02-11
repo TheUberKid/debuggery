@@ -1,7 +1,5 @@
-# debuggery.io source
+# debuggery.io
 
-Do not claim or distribute
-
-Will be available soon
+--COMING SOON--
 
 Zeki Xu
