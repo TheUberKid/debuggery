@@ -1,5 +1,11 @@
 // NOTE: this html submits to register.php (debuggery/public) which has been omitted for security reasons.
 
+<div id="aboutbody">
+	<div id="aboutcaption">
+		Register
+	</div>
+</div>
+
 <div id="register">
 	<form action="register.php" method="post">
 	    <fieldset>
