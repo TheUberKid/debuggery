@@ -1,0 +1,281 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color: #e1e1e1;
+}
+
+#header{
+	width: 100%;
+	height: 45px;
+	background-color: #372F4A;
+	text-align: center;
+	color: white;
+}
+
+.hoverlog:hover a{
+	display: none;
+}
+.hoverlog:hover:before{
+	content:"LOGOUT";
+	color: #bbbbbb;
+	cursor: pointer;
+}
+
+#titlefont{
+	margin-left: 1.5%;
+	margin-top: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+	float: left;
+}
+
+.spclass{
+	font-family: "Courier New", Courier, monospace;
+}
+
+.url-link{
+	float: right;
+	color: white;
+	font-weight: 200;
+	font-size: 13px;
+	margin-top: 16px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	margin-right: 2%;
+}
+
+#header a, #header a:visited, #footer a, #footer a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+#list a, #list a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+#links a:hover{
+	color: #bbbbbb;
+}
+
+#list a:hover{
+	color: #777777;
+}
+
+#aboutbody {
+	height: 100%;
+	width: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #32495C;
+}
+
+#aboutcontent {
+	margin-left: 3%;
+	margin-right: 3%;
+	font-size: 20px;
+	font-weight: 250;
+}
+
+.quicklink {
+	float: right;
+	margin-left: 2%;
+}
+
+.quicklink a, .quicklink a:visited{
+	text-decoration: none;
+	color: #445F9C;
+}
+
+.quicklink a:hover{
+	color: #223D7A;
+}
+
+#section{
+	width: 85%;
+	height: 120px;
+	background-color: #e4e5e8;
+	border-bottom: 1px #C7C7CA solid;
+	padding: 5% 10% 0% 5%;
+}
+
+#innersection{
+	color: #32495C;
+	font-size: 29px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#video{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#aboutcaption{
+	margin: 3%;
+	font-size: 25px;
+}
+
+#caption{
+	margin-top: 5%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #32495C;
+	font-size: 18px;
+}
+
+#footer{
+	width: 100%;
+	height: 120px;
+	background-color: #372F4A;
+	text-align: center;
+	color: white;
+}
+
+.footer-left{
+	float: left;
+	color: white;
+	font-weight: 200;
+	font-size: 13px;
+	margin-left: 1.5%;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer-right{
+	float: right;
+	color: white;
+	font-weight: 200;
+	font-size: 13px;
+	margin-right: 2%;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.form-control{
+	width: 40%;
+	font-size: 20px;
+	margin-bottom: 1%;
+	border-radius: 5px;
+}
+
+.form-control-long{
+	width: 50%;
+	font-size: 20px;
+	margin-bottom: 1%;
+	border-radius: 5px;
+}
+
+.form-textarea{
+	width: 50%;
+	height: 200px;
+	font-size: 15px;
+	margin-bottom: 1%;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+
+#register, #login, #submit, #solution{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	padding: 2%;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #9082B0;
+	border-radius: 10px;
+	width: 70%;
+}
+
+#list{
+	margin-left: 3%;
+	margin-right: auto;
+	padding: 2%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-radius: 10px;
+	width: 70%;
+}
+
+.title{
+	font-size: 20px;
+}
+
+.desc{
+	font-size: 16px;
+}
+
+.poster{
+	font-size: 14px;
+}
+
+form, fieldset{
+	border: none;
+}
+
+#register button, #login button, #submit button, #solution button{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	color: white;
+	height: 50px;
+	width: 140px;
+	background-color: #57d6c7;
+	border-radius: 5px;
+	margin-top: 2%;
+	cursor: pointer;
+}
+
+.searchbutton{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	color: white;
+	height: 35px;
+	width: 100px;
+	background-color: #57d6c7;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#register button:hover, #login button:hover, #submit button:hover, .searchbutton:hover, #solution button:hover{
+	background-color: #79e8e9;
+}
+
+#wrapper select{
+	border: 0px !important;
+	width: 100px;
+	height: 20px;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #4CC1E5;
+	text-align: center;
+	color: white;
+	padding-left: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 10px;
+}
+
+#submit{
+	margin-bottom: 400px;
+}
+
+.questionbody, .answerbody{
+	width: 70%;
+	margin: 3%;
+}
+
+.questionbody{
+	white-space: pre-wrap;
+}
+
+codebl{
+	display: inline-block;
+	background-color: #CCCC00;
+	width: 70%;
+	margin-bottom: 20px;
+	margin-left: 3%;
+	padding-right: 3%;
+	padding-left: 20px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+#spacing{
+	height: 100px;
+}
