@@ -1,0 +1,8 @@
+Github/TheUberKid/debuggery/templates
+Files omitted in this directory:
+
+continue.php (contains non-public php)
+browse.php (contains non-public php)
+viewform.php (contains non-public php)
+header.php (security reasons)
+footer.php (security reasons)
